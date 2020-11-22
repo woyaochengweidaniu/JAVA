@@ -26,11 +26,14 @@ public interface SortService {
      */
      void chaRu(int[] ints);
 
+
     /**
-     * 对象排序
-     * @param ints
+     * 快速排序
+     * @param ints  数组
      */
-    void duiXiang(int[] ints);
+     void kuaiPai(int[] ints);
+
+
 
 
 

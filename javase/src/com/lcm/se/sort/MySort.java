@@ -16,7 +16,7 @@ public class MySort {
 //        sortService.maoPao(ints);
 //        sortService.xuaZe(ints);
         sortService.chaRu(ints);
-
+//          sortService.kuaiPai(ints);
         for (int i = 0; i < ints.length; i++) {
             System.out.println(ints[i]);
         }
