@@ -1,0 +1,55 @@
+git init   初始化一个git仓库
+
+git status  查看修改的文件
+
+git add  <文件>       将文件添加到暂存区
+
+git commit -m ""   将文件提交到git
+
+git reset  --hard commit-id     恢复版本   --hard、--mixed、--soft，
+-- soft ：仅仅只是撤销已提交的版本库，不会修改暂存区和工作区
+--mixed 仅仅只是撤销已提交的版本库和暂存区，不会修改工作区
+--hard  彻底将工作区、暂存区和版本库记录恢复到指定的版本库
+
+
+git checkout -- <文件>  使工作区跟版本库中或者暂存区保持最新一致
+
+git rm --cache <文件>  删除暂存区的文件
+
+git rm -f <文件>   删除暂存区和工作区的文件
+
+git log   查看提交的日志
+
+git reflog  查看历史的git命令
+
+git remote add origin git@github.com:woyaochengweidaniu/test.git        将本地仓库关联远程仓库test
+
+git remote remove origin   解除远程关联
+
+git clone git@github.com:woyaochengweidaniu/gitskill.git      从远程仓库克隆
+
+git branch   查看分支  -r 查看远程分支    -a 查看所有分支    不带参数默认查看本地分支
+
+git barnch  <分支名字>  创建分支
+
+git branch -d <分支名字>  删除本地分支
+
+git checkout <分支名字> 切换到分支
+
+git checkout -b <自己取分支名字> origin/<远程分支名字>   将远程分支拉去到本地并且在本地创建同时切换到改分支下
+
+git merge <dev>  dev分支与当前进行合并
+
+git stash  '' 保存现场工作空间
+
+git push origin <本地分支>:<远程分支>          将本地的一个分支再远程仓库创建
+
+git push origin <>:<远程分支>      删除远程分支    推送一个空的分支到远程上，也就是删除远程分支
+
+git push origin --delete <远程分支>  删除远程分支
+
+
+
+
+
+
