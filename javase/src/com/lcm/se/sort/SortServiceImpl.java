@@ -1,5 +1,7 @@
 package com.lcm.se.sort;
 
+import java.util.LinkedList;
+
 /**
  * @author liuchaomin
  * @date 2020/11/8 18:43
@@ -63,6 +65,7 @@ public class SortServiceImpl implements SortService {
     @Override
     public void chaRu(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
+
             //插入的数
             int num = arr[i];  //当前数
             //被插入数的前一个数的下表，也是后面移动被插入的数字下表
